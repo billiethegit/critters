@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link href="styles.less" type="text/css" rel="stylesheet/less"/>
+    <script src="less.js" type="text/javascript"></script>
 	<?php wp_head(); ?>
 	<?php flat_hook_head_bottom(); ?>
 </head>
